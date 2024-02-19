@@ -101,8 +101,7 @@ Download the whisper model converted to ggml format. This time, base.en was used
 bash ./models/download-ggml-model.sh base.en
 ```
 
-Please refer here for selecting a model.
-[model](https://github.com/ggerganov/whisper.cpp/blob/master/models/README.md)
+You can choose your favorite model from [here](https://github.com/ggerganov/whisper.cpp/blob/master/models/README.md).
 Models are tiny, base, small, medium, large, with accuracy increasing from left to right, but also file size and memory usage.
 >Models are multilingual unless the model name includes .en.
 
