@@ -66,12 +66,14 @@ make stream
 ./stream -m ./models/ggml-base.en.bin -t 8 --step 500 --length 5000
 ```
 
-https://github.com/cuticle999/LFX-test/assets/26399136/e817d7c4-b559-4aa9-92c2-717560a7a8da
+The demo audio was created with [ElevenLabs](https://elevenlabs.io/).
+
+https://github.com/cuticle999/LFX-Mentorship-Pre-test-3170/assets/26399136/6eb6ccbd-3748-4fc9-a831-f89037672845
 
 ### Multilingual Transcription
 To use languages other than English, please specify the language using the -l option. Without this option, the system may default to English.
 
-The example provided uses the 'base' model.
+The example provided uses the 'base' model.The following command allows for real-time transcription in Japanese.
 
 ```
 bash ./models/download-ggml-model.sh base
@@ -81,5 +83,3 @@ bash ./models/download-ggml-model.sh base
 make stream
 ./stream -m ./models/ggml-base.bin -l ja -t 8 --step 500 --length 5000
 ```
-
-<img width="552" alt="whisper-ja" src="https://github.com/cuticle999/LFX-test/assets/26399136/10c7842a-8d03-4852-aa01-f8e8fc61142e">
